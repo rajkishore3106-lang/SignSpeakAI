@@ -6,8 +6,7 @@ labels = [
     "A","B","C","D","E",
     "F","G","H","I","J"
 ]
-
-model = tf.keras.models.load_model("sign_model.h5", compile=False)
+model = tf.keras.models.load_model("sign_model.keras", compile=False)
 
 print("Model Loaded Successfully!")
 
